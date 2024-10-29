@@ -7,7 +7,7 @@ This project implements a UVM-based Universal Verification Component (UVC) for t
 The APB protocol is a low-power, low-complexity bus interface, typically used for communication between a system's processor and its peripheral components. Key APB signals include:
 - **PADDR**: Address bus for target peripherals.
 - **PWRITE**: Indicates write (high) or read (low) operation.
-- **PSELx**: Peripheral select line for activating target peripherals.
+- **PSEL**: Peripheral select line for activating target peripherals.
 - **PENABLE**: Controls the timing of data transactions.
 - **PREADY**: Indicates if the slave is ready for the transfer.
 - **PRDATA / PWDATA**: Data buses for read and write operations.
